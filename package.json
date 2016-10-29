@@ -1,0 +1,47 @@
+{
+  "name": "pugbreeder",
+  "version": "0.0.1",
+  "description": "Static site generator using [node, pug, sass]",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuusuke12dec/pugbreeder.git"
+  },
+  "keywords": [
+    "Node",
+    "Pug",
+    "SASS"
+  ],
+  "author": "Yusuke Todaka <todanosuke@gmail.com>",
+  "bin": {
+    "pugbreeder": "bin/pugbreeder.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yuusuke12dec/pugbreeder/issues"
+  },
+  "homepage": "https://github.com/yuusuke12dec/pugbreeder#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "dateformat": "^1.0.12",
+    "del": "^2.2.2",
+    "front-matter": "^2.1.0",
+    "globule": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-md5": "^0.1.2",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-watch": "^4.3.10",
+    "gulp-webserver": "^0.9.1",
+    "js-yaml": "^3.6.1",
+    "jstransformer-markdown-it": "^2.0.0",
+    "lodash": "^4.16.4",
+    "mkdirp": "^0.5.1",
+    "pug": "^2.0.0-beta6",
+    "replace-ext": "^1.0.0",
+    "thunkify": "^2.1.2"
+  }
+}

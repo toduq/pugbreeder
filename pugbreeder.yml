@@ -1,0 +1,17 @@
+---
+src: 'src'
+dest: 'public'
+glob:
+  pug: ["**/*.@(pug|md)"]
+  pug_compile_ignore: ["!**/_*"]
+  sass: ["**/*.sass", "**/*.scss"]
+  static: ["**/!(*.pug|*.md|*.sass|*.scss)"]
+pug:
+  collect_attr_uniq: ['tags', 'url']
+  pretty_url: true
+  opts:
+    pretty: true
+sass:
+  pretty: true
+markdown:
+  gfm: false
